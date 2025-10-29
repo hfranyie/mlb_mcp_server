@@ -1,0 +1,14 @@
+[project]
+name = "mcp-server-mlb"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.14.1",
+    "mlb-statsapi>=1.9.0",
+    "strands-agents>=1.9.1",
+    "streamlit>=1.50.0",
+]
+
+[tool.uv]
+python-preference = "managed"
