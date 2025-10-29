@@ -2,6 +2,30 @@
 
 A Model Context Protocol (MCP) server that provides comprehensive MLB statistics and data through the MLB Stats API. This server offers both a command-line interface and a web-based Streamlit chat interface for interacting with MLB data.
 
+## 🖥️ User Interface Previews
+
+Below are example screenshots from the **MLB Agent Chat UI** showing real interactions and analysis powered by the MCP server and Bedrock planner.
+
+### 1️⃣ Game Schedule Query
+![MLB Agent - Game Schedule Query](assets/mlb-agent-ui-1.jpg)
+*The agent identifies the upcoming World Series Game 5 between the Blue Jays and Dodgers, including venue, status, and probable pitchers.*
+
+---
+
+### 2️⃣ Player Performance Analysis
+![MLB Agent - Player Performance Analysis](assets/mlb-agent-ui-2.jpg)
+*The agent retrieves Vladimir Guerrero Jr.’s 2025 season statistics and generates a natural language analysis comparing key performance metrics.*
+
+---
+
+### 3️⃣ World Series vs Regular Season Comparison
+![MLB Agent - World Series Comparison](assets/mlb-agent-ui-3.jpg)
+*The system compares Guerrero Jr.’s World Series stats with his regular-season averages, demonstrating contextual reasoning using MLB data.*
+
+---
+
+These screenshots highlight how the **MLB Agent** combines structured MCP tool outputs with contextual Bedrock analysis to produce in-depth baseball insights.
+
 ## Features
 
 ### Core MLB Data Tools
